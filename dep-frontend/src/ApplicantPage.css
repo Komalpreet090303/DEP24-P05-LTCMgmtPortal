@@ -1,0 +1,75 @@
+/* ApplicantPage.css */
+
+.applicant-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fdfdea; /* bg-yellow-50 color code */
+    background-image: url("../public/Leave_Travel_Concession_and_Its_FAQs-02.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .applicant-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px; /* Increased font size for the header */
+    font-weight: bold; /* Bold font for the header */
+  }
+  
+  .applicant-main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto; /* Center the block horizontally */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center; /* Center the content within the block */
+  }
+  
+  .applicant-info {
+    margin-bottom: 40px;
+    font-size: 18px; /* Increased font size for the main content */
+    color: #333; /* Darker color for better readability */
+  }
+  
+  .usage-instructions,
+  .key-features {
+    margin-bottom: 20px;
+    font-size: 16px; /* Increased font size for lists */
+    color: #555; /* Slightly darker color for lists */
+    line-height: 1.5; /* Improved line height for better spacing */
+  }
+  
+  .applicant-footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Make the footer cover the entire width of the screen */
+    font-size: 14px; /* Increased font size for the footer */
+  }
+
+  .highlighted-text {
+    color: #e74c3c; /* Red color for highlighted text */
+    font-weight: bold; /* Bold font for highlighted text */
+  }
+  
+  .emphasis-text {
+    color: #3498db; /* Blue color for emphasized text */
+    font-style: italic; /* Italic font for emphasized text */
+  }
+  
+  
+  /* Add more styles as needed */
+  
